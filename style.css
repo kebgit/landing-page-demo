@@ -1,0 +1,164 @@
+* {
+    padding: 0PX;
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header,
+.intro {
+    display: flex;
+    padding: 2em 20em;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    gap: 10px;
+    border: 0px;
+    margin: 0px;
+}
+
+.logo,
+.header-links{
+    flex:1;
+}
+
+.signup{
+    border: 0px;
+    background-color: rgb(160, 160, 160);
+    border-radius: 5px;
+    padding: 0.5em;
+    color: #F9FAF8;
+}
+
+.header-links{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.intro-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.intro .image{
+    display: flex;
+    align-items: center;
+}
+
+.div .image *{
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 0;
+}
+
+.info{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    background-color: #F9FAF8;
+    margin: 0 2em;
+    padding: 2em 20em;
+}
+
+.card img{
+    width: 100px;
+    height: 100px;
+    border: #1F2937;
+    border-radius: 5px;
+}
+
+.card p{
+    text-align: center;
+}
+
+h3{
+    background-color: #F9FAF8;
+    text-align: center;
+    margin: 0px
+}
+
+.info-section {
+    background-color: #F9FAF8;
+    margin: 0px;
+    padding: 10px;
+}
+
+.quote-block{
+    display: flexbox;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    margin: auto;
+    padding: 2em 20em;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+
+}
+
+.attribution{
+    margin: 1em 0px 1em auto;
+    text-align: end;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    color:#E5E7EB;
+    padding: 3em;
+}
+
+.cta{
+    background-color:#F9FAF8;
+    padding: 5em 20em;
+}
+
+.cta-box {
+    background-color:#1F2937;
+    padding: 2em 5em;
+    border-radius: 15px;
+    display: flex;
+}
+
+.cta-text {
+    flex-grow: 3;
+    color: #F9FAF8;
+}
+
+.cta-button {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-button button{
+    background-color: #1F2937;
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 1em;
+    color: #F9FAF8;
+}
